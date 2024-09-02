@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+}
+.border{
+    border: 1px soild black;
+}
+.parent{
+    width: 75%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+   
+    background-color: greenyellow;
+}
+

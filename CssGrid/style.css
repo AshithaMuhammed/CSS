@@ -1,0 +1,24 @@
+.parent{
+    width: 75%;
+    height: 500px;
+    border: 1px solid green;
+    background-color:pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-gap:10px;
+    grid-row-gap:10px
+
+    
+}
+.child{
+    background-color: beige;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
